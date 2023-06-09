@@ -4,7 +4,7 @@ using MongoDB.Bson.Serialization.Conventions;
 using MongoDB.Driver;
 
 #region Ayarlar
-const string connectionUri = "mongodb+srv://mert5708:deneme123@cluster0.clpnwej.mongodb.net/?retryWrites=true&w=majority";
+const string connectionUri = "";
 
 var settings = MongoClientSettings.FromConnectionString(connectionUri);
 
